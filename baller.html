@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>baller shit dude</title>
+	<link rel="stylesheet" href="style/new-style.css" type="text/css"/>
+	<script type="text/javascript"
+	 src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js">
+	</script>
+	<script type="text/javascript">    
+		function fadeInPage(){
+			$("#out").delay(1000).fadeIn("fast");   
+			$(".heading").delay(1000).fadeIn("fast");   
+		}
+	 	$(document).ready(function(){
+			$(".jude").fadeIn("slow", function(){
+			   $(".text").delay(1000).fadeIn("slow", function(){
+					fadeInPage();
+				});
+				   
+				
+			});
+		});
+	</script>                                              
+</head>
+<body>                                     
+	<br><br>
+	<div id="out" class="logo">
+		<img src="images/header-new.png">
+	</div> 
+	 <div class="heading" id="out">
+		The simplest way to keep track of stuff you want to hear. 
+	</div>
+	<div class="fade-content">
+   
+		
+		<div class="jude" id="in">    
+			<img src="images/heyjude.png">
+		</div>
+		<br><br><br>                   
+		<div class="text" id="in">
+			<img src="images/text.png">
+		</div>
+	</div>
+</body>

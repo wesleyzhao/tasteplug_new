@@ -1,0 +1,22 @@
+<?php
+answer();
+//say("Hello, World - your call is very important to us");
+$id = $currentCall->callerID;
+if ($id == '4255333129'){
+	say("Hello, Ajay. You beezy. Learn to code. Goodbye.");
+}
+elseif($id == '4255021843'){
+	say("Dear Wesley, You are THE boss. Goodbye.");
+}
+elseif($id == '4258028289'){
+	say("Hi there Madison :) Wesley loves you very much <3. Have a GREAT night...goodbye!");
+}
+elseif($id == '4254450256'){
+	say("Hello Jianmin, nice hearing from you. Goodbye");
+}
+else{
+	say("Sorry, there is no greeting for you. Become friends with Wesley Zhao... he'll hook you up. Goodbye.");
+}
+
+hangup();
+?>

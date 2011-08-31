@@ -1,0 +1,685 @@
+/*
+CSS stylesheet for Tasteplug
+Dan Shipper
+Wesley Zhao
+Ajay Mehta  
+2011
+*/
+
+/* reset body */
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #F4F4F4;
+}
+
+/* main things */ 
+
+html {
+    font-family: Georgia;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    /*line-height:20px;*/
+    font-size: 14px;
+}
+
+img{
+	border: 0;	
+}
+a {
+	outline: none;
+	color: #094186;
+  	text-decoration: none;	
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a img{
+	border: none;	
+}
+
+/* header and wrapper */
+
+#wrapper {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+    height:100%
+}
+
+#header{
+}
+
+.top-links {
+	font-family:"Helvetica Neue";
+	color:black;
+	float:right;
+	padding: 30px 0px 5px 5px;
+}
+
+.top-links a{
+	color:#094186;
+	padding-right:0px;
+}
+
+#logo {
+	height:60px;
+	display:inline;
+	padding-left:0px;
+	float:left;
+}
+
+/*index page*/
+
+.top-message{
+	display:inline;
+	font-family:"Helvetica Neue";
+	color:black;
+	float:right;
+	padding: 30px 0px 5px 5px;
+}
+
+#welcome {
+	clear:both;
+	text-align:center;
+	font-size:22px;
+	font-family:"Georgia";
+	font-weight:bold;
+	letter-spacing:-1px;
+	color:#094186;
+	padding:20px 10px 20px 10px;
+}
+
+#explanation-container{
+	margin: 10px auto 10px auto;
+	padding: 10px auto 10px auto;
+	height:250px;
+}
+
+#column-right{
+	width: 425px;
+	float: right;
+	margin-left:auto;
+	margin-right:auto;
+}   
+
+#column-left{
+	width: 200px;
+	overflow:visible;
+}                
+
+#text-right{
+	float: right;
+	height:30px;
+	padding: 0px 0px 7px 0px;
+}
+
+#text-left{
+	height:125px;
+	clear:right;
+	padding: 0px 0px 0px 25px;
+}
+
+#arrow{
+	position: relative;
+	right: 20px;  
+	z-index: 10;
+}
+
+#sample-plug{
+   	clear:right;
+   	float: right;
+   	padding-top: 30px;  
+   	padding-right:50px;
+   	width:310px;
+	
+}   
+
+#label{
+	font: 24px Helvetica;
+	border: 2px solid #7b7b7b;
+	padding: 5px;  
+	font-weight: bold;    
+	width: 200px;
+}
+
+#preview-container{
+	padding:5px 0px 5px 0px;
+	background:#E2D9EC;
+	width:710px;
+	border:2px solid none; border-radius:20px 20px 20px 20px; -moz-border-radius: 20px 20px 20px 20px; -khtml-border-radius:20px 20px 20px 20px; -webkit-border-radius: 20px 20px 20px 20px;
+    margin:10px;
+	font-family:"Helvetica Neue";
+	text-align:center;
+	height:180px;
+}
+
+#preview-text{
+	font-size:20px;
+	font-weight:bold;
+	font-family:"Helvetica Neue";
+	text-align:center;
+	display:inline;
+	letter-spacing:0px;
+	padding-left:2px;
+	float:right;
+	padding:5px 5px 25px 5px;
+	margin-top:50px;
+}
+
+#preview-text b{
+	font-weight:normal;
+	font-size:16;
+}
+
+#step{
+	display:inline;
+	float:left;
+	margin:5px 5px 5px 3px;
+	width:228px;
+	height:175px;
+	overflow:visible;
+	text-align:center;
+}
+
+.screenshot{
+	margin:8px auto 5px auto;
+	max-width:222px;
+	padding:1px;
+	border:1px dashed rgba(120,81,169,1);
+}
+
+#login-container{
+	clear:both;
+	text-align:center;
+	font-size:16px;
+	width:auto;
+	margin: 10px auto 10px auto;
+	padding-top:60px;
+}
+
+.login-field{
+	display:inline;
+	border:2px groove #CAC3EF; border-radius:5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -khtml-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+    background: white;
+    margin:20px 5px 5px 5px;
+    font-size:16px;
+    font-family:"Arial";
+	color:#828282;
+	padding:5px;
+	width:150px;
+	text-align:center;
+}
+
+#sign-up{
+	font-family:"Georgia";
+	background: #094186;
+	display: inline-block;
+	padding: 5px 15px 6px 15px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px #999;
+	-webkit-box-shadow: 0 1px 3px #999;
+	text-shadow: 0 -1px 1px #222;
+	border-bottom: 1px solid #222;
+	position: relative;
+	cursor: pointer;
+	margin-top:10px;
+}
+
+#sign-up hover{
+	text-decoration:underline;
+}
+
+/* about page */
+
+.about-text{
+	clear:both;
+	width:600px;
+	text-align:center;
+	padding:40px 10px 10px 10px;
+}
+
+.profile-name{
+	font-size:18px;
+	font-weight:bold;
+	float:left;
+	padding-left:100px;
+	display:inline;
+}
+
+.links{
+	float:left;
+	display:inline;
+	padding-left:100px;
+	position:relative;
+	text-align:center;
+}
+
+.profile-pic{
+	display:inline;
+	float:left;
+}
+
+.one-profile{
+clear:both;
+	width:700px;
+	height:200px;
+	margin:10px;
+}
+
+/*profile sidebar*/
+
+#profile-container {
+	clear:both;
+    float:left;
+    width:150px;
+    padding-bottom:5px;
+    padding-left:0px;
+    padding-top: 10px;
+    margin-right:10px;
+}
+
+#profile-name {
+	font-size:30px;
+	margin-bottom:20px;
+	padding-top:10px;
+	text-align:center;
+	clear:both;
+	letter-spacing:-1px;
+}
+
+#profile-pic {
+	width:100px;
+}
+
+.descriptor {
+	margin-top:10px;
+    font-family: "Georgia";
+    font-size:10px;
+    color: rgba(76, 78, 80, 1);
+}
+
+.profile-info{
+	color: black;
+    font-size: 14px;
+}
+
+.about-me{
+	font-size:12px;
+	color:black;
+	line-height:1.1em;
+}
+
+/* plug search from web */
+
+#plug-search{
+	border-top:1px solid black;
+	width:400px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#searchTerm{
+	margin:10px;
+	font-family:"Arial";
+	color:#828282;
+	font-size:14px;
+	text-align:center;
+	border:2px groove black; border-radius:5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -khtml-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+	height:auto;
+	width:290px;
+	padding:5px;
+	display:inline;
+}
+
+#find-button{
+	clear:both;
+	font-size:16px;
+    font-weight:bold;
+    font-family:"Helvetica Neue";
+	float:right;
+	margin: 10px 5px 5px 5px;
+    padding: 3px 5px 3px 5px;
+    background: #D6AEEA;
+}
+
+#results-container{
+	display:inline;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.result-pic{
+	width:50px;
+	height:50px;
+}
+
+.result-title{
+	font-size:12px;
+	margin: 2px auto 2px auto;
+	color:black;
+}
+
+.result-title a{
+	color:black;
+}
+
+.result-artist{
+	font-size:10px;
+	color:#696969;
+}
+
+.one-result {
+	width:110px;
+	height:90px;
+	overflow:hidden;
+	text-align:center;
+	float:left;
+	display:inline;
+	margin:5px;
+	padding:8px;
+	background:white;
+	border:2px outset #AD94CC; border-radius:5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -khtml-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+
+.highlight{
+	background: #EAD7F4;
+	text-decoration:underline;
+	width:110px;
+	min-height:90px;
+	overflow:visible;
+	text-align:center;
+	float:left;
+	display:inline;
+	margin:5px;
+	padding:8px;
+	border:2px outset black; border-radius:5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -khtml-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;
+
+}
+
+loading img{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+}
+
+
+/* plugs */
+
+#plugs-container{
+	clear:both;
+	width:600px;
+	margin-left: auto;
+    margin-right:auto;
+    padding-top: 25px;
+    overflow:visible;
+}
+
+.plug{
+	height:75px;
+	border-top:1px solid gray;
+	padding:13px 5px 8px 5px;
+	font-size:12px;
+	margin-top:5px;
+}
+
+.user-tool{
+	/*clear:both;*/
+    font-size: 11px;
+    /*float:right;*/
+    padding-right:5px;
+}
+
+.user-tool a{
+	color:gray;
+}
+
+.timestamp{
+	#float:right;
+	font-size:10px;
+	padding-right:5px;
+}
+
+.right-floater{
+	float:right;
+	height:10px;
+}
+
+.album-art{
+	width:60px;
+	height:60px;
+	border:1px solid none;
+	float:left;
+}
+
+.song{
+	display:inline;
+	font-size:20px;
+	padding-left:5px;
+	/*line-height:60px;*/   
+}
+
+.artist{
+	font-size:14px;
+	display:inline;
+	/*position:relative;*/
+	/*bottom: 20px; */
+	padding-left:5px;
+}
+
+.album{
+	font-size:14px;
+	display:inline;
+	font-style:italic;
+}
+
+.play-button {
+	vertical-align:middle;
+}
+
+.itunes-purchase{
+	width:70px;
+	float:right;
+	padding:5px;
+	margin-top:5px;
+}
+
+.amazon-purchase{
+	width:70px;
+	float:right;
+	display:inline;
+	padding:5px;
+	margin-top:5px;
+}
+
+.purchase-links{
+	display:inline;
+	float:right;
+	color:gray;
+	width:100%;
+	list-style:none;
+	font-size:14px;
+	width:50px;
+	margin-top:-5px;
+	font-family:"Helvetica Neue";
+}
+
+.purchase-links a{
+	text-decoration:none;
+	color:#9370DB;
+}
+
+.purchase-links a:hover{
+	text-decoration:underline;
+	
+}
+
+.purchase-links li{
+	float:right;
+	/*margin-right:10px;*/
+	position:relative;
+	display:block;
+}
+.purchase-links li a{
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	font-weight:bold;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+.purchase-links li a:hover{
+	text-decoration:underline;
+}
+
+.purchase-links ul{
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	opacity:0; /* Set initial state to transparent */
+	-webkit-transition:0.25s linear opacity; /* Make the dropdown fade-in in Webkit */
+}
+
+.purchase-links ul li{
+	padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+}
+.purchase-links ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+	display:block;
+}
+.purchase-links li:hover ul{ /* Display the dropdown on hover */
+	left:35px;
+	top:-10px;/* Bring back on-screen when needed */
+	opacity:1; /* Fade to opaque */
+}
+.purchase-links li:hover a{ /* Set styles for top level when dropdown is hovered */
+
+	text-decoration:underline;
+}
+.purchase-links li:hover ul a{ /* Override some top level styles when dropdown is hovered */
+	text-decoration:none;
+	-webkit-transition:-webkit-transform 0.075s linear;
+}
+
+.purchase-links li:hover ul li a:hover{ /* Set styles for dropdown when items are hovered */
+	background:#9370DB;
+	text-decoration:underline;
+	-moz-transform:scale(1.04);
+	-webkit-transform:scale(1.04);
+}
+
+.super-bottom{
+	width: 100%;
+}
+
+.preview{
+	margin:8px 0px 0px 5px;
+	float:left;
+	display:inline;
+}
+
+audio{
+}
+
+/**/
+
+.content-top{
+	width: 600px;
+	margin: 0px auto;
+}    
+
+.content-songs{
+	width: 700px;
+	margin: 0px auto;
+}           
+
+#logo{
+	margin: 0px auto;
+	font: 20px Georgia;  
+}               
+
+#top-bar-right{ 
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	font: 15px Helvetica;
+	font-weight: bold;
+	float: right;
+	height: 20px;   
+	width: 270px;
+	background-color: #ffebd2;
+} 
+
+#top-bar-left{
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-top: 10px;
+	font: 15px Helvetica;
+	font-weight: bold;   
+	height: 20px; 
+	width: 270px;
+	background-color: #ffebd2;
+} 
+
+#song-div{
+	float: right;
+	width: 740px;
+}   
+      
+#toggle{
+	float: right;
+}                
+
+#artist{
+    width: 420px; 
+    float: right;
+}               
+
+#song{
+	width: 250px;
+}
+
+
+#purchase-div{
+	float: right;
+	width: 740px;
+}    
+
+#purchase-div-2{
+	float: right;
+	width: 740px;
+}           
+
+#player{
+	float: right;
+	width: 420px;
+}
+
+#links{
+	width: 250px;
+}
+
+#toggle-2{
+	float: right;
+}   
+
+#link{
+	position: relative;
+	top: 5px;
+}

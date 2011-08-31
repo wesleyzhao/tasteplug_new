@@ -1,0 +1,99 @@
+/*
+CSS stylesheet for Tasteplug
+Dan Shipper
+Wesley Zhao
+Ajay Mehta  
+2011
+*/
+
+/* reset body */
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #F4F4F4;
+}
+
+/* main things */ 
+
+html {
+    font-family: Georgia;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    /*line-height:20px;*/
+    font-size: 14px;
+}
+
+img{
+	border: 0;	
+}
+a {
+	outline: none;
+	color: #094186;
+  	text-decoration: none;	
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a img{
+	border: none;	
+}   
+
+#logo{
+	width: 300px;
+	margin: 0px auto;  
+	padding: 10px;
+}                     
+
+#heading{
+	font: 24px Georgia;
+	color: black;
+	width: 500px;
+	margin: 0px auto;    
+	padding: 10px;
+}                   
+
+.content{
+	width: 800px;
+	margin: 0px auto;
+}                    
+
+#column-right{
+	width: 455px;
+	float: right;
+	
+}   
+
+#column-left{
+	width: 400px;
+}                
+
+#text-right{
+	float: right;
+}               
+
+#arrow{
+	position: relative;
+	right: 20px;  
+	z-index: 10;
+}
+
+#sample-plug{
+   float: right;
+   padding-top: 30px;  
+   padding-right: 10px; 
+	position: relative;
+	bottom: 80px;
+}   
+
+#label{
+	font: 24px Helvetica;
+	border: 2px solid #7b7b7b;
+	padding: 5px;  
+	font-weight: bold;    
+	width: 200px;
+}
